@@ -5,7 +5,7 @@ metadata:
 spec:
   type: NodePort
   # Each Pod in the Deployment that you created previously has below label. So the Pods in the Deployment will become members of this Service.
-  selector:
+  selector: 
     app: to-do-list
   ports:
       # By default and for convenience, the `targetPort` is set to the same value as the `port` field.

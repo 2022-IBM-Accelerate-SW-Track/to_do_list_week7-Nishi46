@@ -15,7 +15,7 @@ spec:
         app: to-do-list
     spec:
       containers:
-      - name: to-do-list
+      - name: to-do-list 
         image: ibmaccelerate/cloudnative:frontend_v1
         imagePullPolicy: Always
         ports:
